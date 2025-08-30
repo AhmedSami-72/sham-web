@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-i18n="pageTitle">Sham Restaurant</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightbox2@2.11.3/dist/css/lightbox.min.css">
+</head>
+<body>
+    <!-- Language Switcher -->
+    <div class="language-switcher">
+        <div class="language-container">
+            <a href="#" class="lang-option" data-lang="en">
+                <i class="fas fa-globe"></i> EN
+            </a>
+            <a href="#" class="lang-option" data-lang="de">
+                <i class="fas fa-globe"></i> DE
+            </a>
+        </div>
+    </div>
+
+    <!-- Header / Hero Section -->
+    <header class="hero">
+        <div class="hero-content">
+                <div class="logo-container">
+                    <img src="img/logo.jpg" alt="Restaurant Logo" class="logo-image">
+                    <h1 class="restaurant-name" data-i18n="restaurantName">Sham</h1>
+                </div>
+                <p class="tagline" data-i18n="tagline">Delicious Moments Await – Authentic Taste, Always Fresh!</p>
+            <div class="notice-box">
+                <p data-i18n="underConstruction">This website is currently under construction, but we are open and accepting orders!</p>
+            </div>
+            <div class="hero-buttons">
+                <a href="#menu" class="cta-button menu-btn">Our Menu</a>
+                <a href="#contact" class="cta-button contact-btn">Contact Us</a>
+            </div>
+        </div>
+    </header>
+
+
+
+    <!-- Menu Section -->
+    <section id="menu" class="menu-section">
+        <div class="container animate-section">
+            <h2>Our Menu</h2>
+            <p>Explore our delicious offerings with a variety of authentic dishes prepared with fresh ingredients.</p>
+            <div class="menu-images">
+                <div class="menu-image-container">
+                    <a href="img/المينيو 1.jpg" target="_blank" title="Click to view menu in full size">
+                        <img src="img/المينيو 1.jpg" alt="Menu Page 1" class="menu-image" loading="lazy">
+                        <div class="menu-overlay">
+                            <span>Click to enlarge</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="menu-image-container">
+                    <a href="img/المينيو 2.jpg" target="_blank" title="Click to view menu in full size">
+                        <img src="img/المينيو 2.jpg" alt="Menu Page 2" class="menu-image" loading="lazy">
+                        <div class="menu-overlay">
+                            <span>Click to enlarge</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Food Gallery Section -->
+    <section id="gallery" class="gallery-section">
+        <div class="container animate-section">
+            <h2>Food Gallery</h2>
+            <p>A glimpse of our delicious dishes that will make your mouth water!</p>
+            <div class="gallery-grid">
+                <a href="img/الاصناف 1.jpg" data-lightbox="food-gallery" class="gallery-item">
+                    <img src="img/الاصناف 1.jpg" alt="Food Item 1" loading="lazy">
+                    <div class="food-name">Chicken Shawarma | Hähnchen Schawarma</div>
+                </a>
+                <a href="img/الاصناف 2.jpg" data-lightbox="food-gallery" class="gallery-item">
+                    <img src="img/الاصناف 2.jpg" alt="Food Item 2" loading="lazy">
+                    <div class="food-name">Hummus Fatteh | Hummus mit Fladenbrot</div>
+                </a>
+                <a href="img/الاصناف 3.jpg" data-lightbox="food-gallery" class="gallery-item">
+                    <img src="img/الاصناف 3.jpg" alt="Food Item 3" loading="lazy">
+                    <div class="food-name">Grilled Kebab | Gegrillter Kebab</div>
+                </a>
+                <a href="img/الاصناف 4.jpg" data-lightbox="food-gallery" class="gallery-item">
+                    <img src="img/الاصناف 4.jpg" alt="Food Item 4" loading="lazy">
+                    <div class="food-name">Falafel | Falafel</div>
+                </a>
+                <a href="img/الاصناف 5.jpg" data-lightbox="food-gallery" class="gallery-item">
+                    <img src="img/الاصناف 5.jpg" alt="Food Item 5" loading="lazy">
+                    <div class="food-name">Hummus with Tahini | Hummus mit Tahini</div>
+                </a>
+                <a href="img/الاصناف 6.jpg" data-lightbox="food-gallery" class="gallery-item">
+                    <img src="img/الاصناف 6.jpg" alt="Food Item 6" loading="lazy">
+                    <div class="food-name">Tabbouleh | Taboulé</div>
+                </a>
+                <a href="img/الاصناف 7.jpg" data-lightbox="food-gallery" class="gallery-item">
+                    <img src="img/الاصناف 7.jpg" alt="Food Item 7" loading="lazy">
+                    <div class="food-name">Moutabal Eggplant | Auberginen-Moutabal</div>
+                </a>
+                <a href="img/الاصناف 8.jpg" data-lightbox="food-gallery" class="gallery-item">
+                    <img src="img/الاصناف 8.jpg" alt="Food Item 8" loading="lazy">
+                    <div class="food-name">Baba Ghanoush | Baba Ghanoush</div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about-section animate-section">
+        <div class="container">
+            <h2 data-i18n="aboutHeading">About Us</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p data-i18n="aboutText" class="about-paragraph">We serve handcrafted meals made with love and fresh ingredients. Whether you're craving something hearty or light – we have something for everyone!</p>
+                    <p class="about-paragraph">Unsere Spezialitäten umfassen authentische Gerichte aus dem Nahen Osten, die mit traditionellen Rezepten und frischen Zutaten zubereitet werden.</p>
+                    <ul class="about-specialties">
+                        <li>Hausgemachte Falafel</li>
+                        <li>Frisches Shawarma</li>
+                        <li>Authentischer Hummus</li>
+                        <li>Orientalische Desserts</li>
+                    </ul>
+                    <a href="#menu" class="about-cta" data-i18n="learnMore">Learn More</a>
+                </div>
+                <div class="about-image">
+                    <img src="img/الاصناف 1.jpg" alt="Delicious food at Sham Restaurant" class="about-img">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact & Opening Hours Section -->
+    <section id="contact" class="contact-section">
+        <div class="container animate-section">
+            <h2>Contact & Opening Hours</h2>
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <p>+49 123 456789</p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <p class="address" data-i18n="address">Hauptstraße 72, 97199 Ochsenfurt, Germany</p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-clock"></i>
+                        <div class="opening-hours">
+                            <p><strong>Monday - Friday:</strong> 11:00 - 22:00</p>
+                            <p><strong>Saturday - Sunday:</strong> 12:00 - 23:00</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- WhatsApp Order Section -->
+    <section class="order-section">
+        <div class="container animate-section">
+            <h2 data-i18n="orderHeading">Order Directly via WhatsApp</h2>
+            <p data-i18n="orderText">Place your order quickly and easily through WhatsApp. We'll confirm your order and let you know when it's ready!</p>
+            <a href="https://wa.me/49123456789" target="_blank" class="whatsapp-btn">
+                <i class="fab fa-whatsapp"></i>
+                <span data-i18n="orderNow">Order Now on WhatsApp</span>
+            </a>
+        </div>
+    </section>
+
+    <!-- Location Section -->
+    <section class="location-section">
+        <div class="container animate-section">
+            <h2 data-i18n="findUs">Find Us Here</h2>
+            <div class="map-container">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2582.508203852007!2d10.064447877107662!3d49.66356507145275!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47a2872ad9d175df%3A0x4008cdc7b27b7d31!2sHauptstra%C3%9Fe%2072%2C%2097199%20Ochsenfurt!5e0!3m2!1sde!2sde!4v1755941260682!5m2!1sde!2sde" 
+                    width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" 
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="footer-shape"></div>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="img/logo.jpg" alt="Sham Restaurant Logo" class="footer-logo-img">
+                    <p class="footer-address">Hauptstraße 72, 97199 Ochsenfurt, Germany</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#" class="footer-link">Home</a></li>
+                        <li><a href="#menu" class="footer-link">Menu</a></li>
+                        <li><a href="#gallery" class="footer-link">Gallery</a></li>
+                        <li><a href="#contact" class="footer-link">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-legal">
+                    <h3>Legal</h3>
+                    <ul>
+                        <li><a href="impressum.html" class="footer-link">Impressum</a></li>
+                        <li><a href="datenschutz.html" class="footer-link">Datenschutz</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 Sham Imbiss Ochsenfurt. All rights reserved.</p>
+                <a href="#" class="back-to-top">
+                    <i class="fas fa-arrow-up"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating WhatsApp Button -->
+    <a href="https://wa.me/49123456789" target="_blank" class="floating-whatsapp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <script src="https://cdn.jsdelivr.net/npm/lightbox2@2.11.3/dist/js/lightbox.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
